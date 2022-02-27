@@ -1,0 +1,30 @@
+.header {
+    &__content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 23px 136px;
+        width: 95%;
+        position: absolute;
+    }
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &-item {
+            margin-right: 21px;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+        &-link {
+            @include link;
+            color:$c-second-text;
+        }
+    }
+    &__logo {
+        &-icon {
+        margin-right: 117px;
+        }
+    }
+}
