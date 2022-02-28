@@ -40,3 +40,18 @@
     line-height: 20px;
     letter-spacing: 0.2px;
 }
+
+@mixin titlesect {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+@mixin subtitlesect {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}

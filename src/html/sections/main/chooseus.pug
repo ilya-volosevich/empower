@@ -1,0 +1,10 @@
+include ../../components/chooseuscard.pug
+
+section.chooseus
+	.chooseus__content.container
+		.chooseus__top
+			h3.chooseus__title WHY CHOOSE US
+			p.chooseus__description Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics 
+		.chooseus__cards
+			each card in chooseuscards 
+				+chooseuscards(card.img,card.title,card.description)
