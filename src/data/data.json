@@ -15,5 +15,27 @@
             "title": "Digital   Marketing",
             "description": "We focus on ergonomics and meeting you where you work."
         }
+    ],
+    "chooseuscards": [
+        {
+            "img": "./img/chooseus1.svg",
+            "title": "3K",
+            "description": "CASES DONE"
+        },
+        {
+            "img": "./img/chooseus2.svg",
+            "title": "45",
+            "description": "AWARD WINNING"
+        },
+        {
+            "img": "./img/chooseus3.svg",
+            "title": "12+",
+            "description": "HAPPY CUSTOMERS"
+        },
+        {
+            "img": "./img/chooseus4.svg",
+            "title": "1.5K",
+            "description": "CASES DONE"
+        }
     ]
 }

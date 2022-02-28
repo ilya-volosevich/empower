@@ -8,6 +8,9 @@
         padding-top: 500px;
     }
     &__content {
+        @media screen and (max-width:800px) {
+            max-width: 416px;
+        }
         
     }
     &__top {
@@ -26,12 +29,18 @@
         color:$c-text-color;
         max-width: 539px;
         margin-bottom: 39px;
+        @media screen and (max-width:800px) {
+            max-width: 335px;
+        }
     }
     &__description {
         @include subheading;
         color: $c-second-text;
         max-width: 376px;
         margin-bottom: 35px;
+        @media screen and (max-width:800px) {
+            max-width: 279px;
+        }
     }
     &__buttons {
         display: flex;
