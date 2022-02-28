@@ -5,3 +5,38 @@
     line-height: 2.4rem;
     letter-spacing: 0.2px;
 }
+
+@mixin headtitle {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+@mixin subheading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+@mixin button {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+@mixin cardtitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+@mixin cardsubtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}

@@ -1,3 +1,19 @@
 {
-    
+    "herocards": [
+        {
+            "img": "./img/hero1.svg",
+            "title": "Digital   Marketing",
+            "description": "We focus on ergonomics and meeting you where you work."
+        },
+        {
+            "img": "./img/hero2.svg",
+            "title": "National top 50 firms",
+            "description": "Just type what's on your mind and we'll get you there.."
+        },
+        {
+            "img": "./img/hero1.svg",
+            "title": "Digital   Marketing",
+            "description": "We focus on ergonomics and meeting you where you work."
+        }
+    ]
 }

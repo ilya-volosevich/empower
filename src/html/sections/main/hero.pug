@@ -1,0 +1,13 @@
+include ../../components/herocard.pug
+
+section.hero
+	.hero__content.container
+		.hero__top
+			h1.hero__title EMPOWER YOUR BUSINESS
+			p.hero__description We know how large objects will act, but things on a small scale.
+			.hero__buttons 
+				a.hero__button(href="#") Get Quote Now
+				a.hero__button(href="#") Learn More
+		.hero__cards
+			each card in herocards 
+				+herocards(card.img,card.title,card.description)
