@@ -1,0 +1,10 @@
+include ../../components/practicecard.pug
+
+section.practice
+	.practice__content.container
+		.practice__top
+			h3.practice__title WHY CHOOSE US
+			p.practice__description Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics 
+		.practice__cards
+			each card in practicecards 
+				+practicecards(card.img,card.title,card.description)

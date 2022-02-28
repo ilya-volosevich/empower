@@ -1,4 +1,4 @@
-.chooseus {
+.practice {
     padding-top: 211px;
     background: #fafafa;
     width: 100%;
@@ -37,7 +37,6 @@
         align-items: center;
         justify-content: flex-start;
         &-img {
-            height: 48px;
             margin-bottom: 10px;
         }
         &-title {
@@ -56,10 +55,10 @@
         }
         &:hover {
             background: #00A0C1;
-            .chooseus__card-title {
+            .practice__card-title {
                 color: #fff;
             }
-            .chooseus__card-description {
+            .practice__card-description {
                 color: #fff;
             }
         }

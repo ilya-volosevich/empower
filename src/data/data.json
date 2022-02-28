@@ -37,5 +37,28 @@
             "title": "1.5K",
             "description": "CASES DONE"
         }
+    ],
+    "practicecards": [
+        {
+            "title": "A single source of truth",
+            "description": "Newton thought that light was made up of particles, but then it was discovered ",
+            "img": "./img/practice1.png"
+        },
+        {
+            "title": "Fastest way to organize",
+            "description": "“Quantum mechanics” is the description of the behaviour of matter",
+            "img": "./img/practice2.png"
+        },
+        {
+            "title": "Fastest way to organize",
+            "description": "They describe a universe consisting of bodies moving",
+            "img": "./img/practice3.png"
+        },
+        {
+            "title": "Work better together",
+            "description": "They finally obtained a consistent description of the behaviour ",
+            "img": "./img/practice4.png"
+        }
+        
     ]
 }
