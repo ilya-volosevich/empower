@@ -1,0 +1,19 @@
+mixin servicecards(img,title,description,icon,fox,things)
+    .service__card
+        .service__card-img
+            img(src= img)
+        .service__card-info
+            h3.service__card-title= title
+            p.service__card-description= description
+            .service__card-div
+                .service__card-icon
+                    img(src= icon)
+                .service__card-quick
+                    p.service__card-fox= fox 
+                    p.service__card-things= things
+            .service__card-div
+                .service__card-icon
+                    img(src= icon)
+                .service__card-quick
+                    p.service__card-fox= fox 
+                    p.service__card-things= things

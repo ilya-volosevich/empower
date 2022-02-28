@@ -1,0 +1,10 @@
+include ../../components/servicecard.pug
+
+section.service
+	.service__content.container
+		.service__top
+			h3.service__title We are providing best business service.
+			p.service__description Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics 
+		.service__cards
+			each card in servicecards 
+				+servicecards(card.img,card.title,card.description,card.icon,card.fox,card.things)

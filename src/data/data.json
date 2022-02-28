@@ -60,5 +60,15 @@
             "img": "./img/practice4.png"
         }
         
+    ],
+    "servicecards": [
+        {
+            "img": "./img/service.png",
+            "title": "Most trusted in our field",
+            "description": "Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.",
+            "icon": "./img/serviceicon.svg",
+            "fox": "the quick fox jumps over the lazy dog",
+            "things": "Things on a very small scale ..."
+        }   
     ]
 }
