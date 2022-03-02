@@ -2,6 +2,9 @@
     padding-top: 211px;
     background: #fafafa;
     width: 100%;
+    @media screen and (max-width:800px) {
+        width: 110%;
+    }
     &__content {
 
     }

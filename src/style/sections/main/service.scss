@@ -2,6 +2,10 @@
     background: #fafafa;
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 100%;
+    @media screen and (max-width:800px) {
+        width: 110%;
+    }
     &__content {
         display: flex;
         flex-direction: column;

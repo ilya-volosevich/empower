@@ -1,0 +1,112 @@
+.touch {
+    padding-top: 80px;
+    padding-bottom: 178px;
+    background: #e5e5e5;
+    width: 100%;
+    @media screen and (max-width:800px) {
+        width: 110%;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center
+    }
+    &__title {
+        @include titlesect;
+        color: $c-text-color;
+        margin-bottom: 10px;
+        max-width: 480px;
+        @media screen and (max-width:880px) {
+            max-width: 257px;
+        }
+    }
+    &__description {
+        @include subtitlesect;
+        color: $c-second-text;
+        margin-bottom: 100px;
+        max-width: 511px;
+        @media screen and (max-width:880px) {
+            max-width: 264px;
+        }
+    }
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        @media screen and (max-width:880px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__card {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: #fff;
+        margin-right: 5px;
+        transition: 0.5s;
+        @media screen and (max-width:880px) {
+            margin-right: 0px;
+            margin-bottom: 30px;
+            
+        }
+        &:hover {
+            background: #252B42;
+            color: white;
+            transform: scale(1.3);
+            @media screen and (max-width:880px) {
+                transform: scale(1);
+            }
+            .touch__card-title {
+                color: #fff;
+            }
+            .touch__card-email {
+                color: #fff;
+            }
+            .touch__card-secondemail {
+                color: #fff;
+            }
+            .touch__card-button {
+                color: #fff;
+                border:1px solid #fff;
+            }
+        }
+        &:last-child {
+            margin-right: 5px;
+        }
+        &-img {
+            margin-bottom: 15px;
+        }
+        &-email {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: #252B42;
+        }
+        &-secondemail {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: #252B42;
+            margin-bottom: 15px;
+        }
+        &-title {
+            font-size: 16px;
+            color: #252B42;
+        }
+        &-button {
+            padding: 10px 20px;
+            border: 1px solid #FFA62B;
+            border-radius: 5px;
+            color: #FFA62B;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+    
+}
