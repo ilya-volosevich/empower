@@ -1,0 +1,9 @@
+include ../../components/touchcard.pug
+
+section.touch
+    .touch__content.container
+        h3.touch__title Get In Touch 
+        p.touch__description Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics 
+        .touch__cards
+            each card in touchcards
+                +touchcards(card.img,card.email,card.secondemail,card.title,card.url,card.button)

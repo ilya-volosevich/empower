@@ -70,5 +70,31 @@
             "fox": "the quick fox jumps over the lazy dog",
             "things": "Things on a very small scale ..."
         }   
+    ],
+    "touchcards": [
+        {
+            "img": "./img/touch1.svg",
+            "email": "georgia.young@example.com",
+            "secondemail": "georgia.young@ple.com",
+            "title": "Get Support",
+            "button": "Submit Request",
+            "url": "#"
+        },
+        {
+            "img": "./img/touch2.svg",
+            "email": "georgia.young@example.com",
+            "secondemail": "georgia.young@ple.com",
+            "title": "Get Support",
+            "button": "Submit Request",
+            "url": "#"
+        },
+        {
+            "img": "./img/touch2.svg",
+            "email": "georgia.young@example.com",
+            "secondemail": "georgia.young@ple.com",
+            "title": "Get Support",
+            "button": "Submit Request",
+            "url": "#"
+        }
     ]
 }

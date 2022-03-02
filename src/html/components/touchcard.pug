@@ -1,0 +1,8 @@
+mixin touchcards(img,email,secondemail,title,url,button)
+    .touch__card
+        .touch__card-img
+            img(src= img)
+        p.touch__card-email= email
+        p.touch__card-secondemail= secondemail
+        h5.touch__card-title= title
+        a.touch__card-button(href= url)= button
