@@ -13,7 +13,10 @@
         grid-template-columns:repeat(auto-fit,minmax(153px,1fr));
         gap: 30px;
         padding: 70.5px 0px;
-        align-items: center;
+        @media screen and (max-width:800px) {
+            align-self: center;
+        }
+        
     }
     &__menu {
         display: flex;
